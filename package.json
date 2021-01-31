@@ -1,0 +1,18 @@
+{
+  "name": "typeground",
+  "version": "1.0.0",
+  "description": "rago wants to have his own playground.",
+  "main": "index.js",
+  "author": "ragokan",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn src/index.ts"
+  },
+  "private": false,
+  "devDependencies": {
+    "ts-node-dev": "^1.1.1",
+    "typescript": "^4.1.3"
+  }
+}
